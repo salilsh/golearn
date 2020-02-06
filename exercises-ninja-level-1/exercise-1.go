@@ -8,7 +8,7 @@ func main() {
 	var z bool = true
 	fmt.Println(x, y, z)
 	fmt.Println("Interger is:", x)
-	fmt.Println("String is: ", y)
-	fmt.Println("Boolean is: ", z)
+	fmt.Println("String is:", y)
+	fmt.Println("Boolean is:", z)
 
 }
