@@ -1,2 +1,2 @@
 # golearn
-trying this again. 
+This is a repo that contains all the code that I wrote while learning golang. 
