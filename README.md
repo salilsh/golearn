@@ -1,10 +1,3 @@
-# golearn
-This is a repo that contains all the code that I wrote while learning golang. 
-Feb 6, 2020: Adding exercise code and restructuring the hierarchy 
-
-# Update: exercise index 
-Following are the exercises that were coded over the completion of the course. The golang playground links added below are Todd's solutions. My solutions are available under each folder with the exercise number. In addition, there are a few other folders where I was experimenting. You can take a look at that too. 
-
 # **Exercises - Ninja Level 1 (variables, values, &amp; type)**
 
 Contribute your code
@@ -936,3 +929,54 @@ Hands-on exercise #7
   - **○○** [**https://gist.github.com/mannion007/3c8899913974c1027ef6f13ec37b2b3f**](https://gist.github.com/mannion007/3c8899913974c1027ef6f13ec37b2b3f)
 
 **video: 170**
+
+# **Exercises - Ninja Level 11 (Error handling)**
+
+Hands-on exercise #1
+
+Start with [this code](https://play.golang.org/p/3W69TH4nON). Instead of using the blank identifier, make sure the code is checking and handling the error.
+
+**solution:**
+
+- **●●** [**https://play.golang.org/p/tn8oiuL1Yn**](https://play.golang.org/p/tn8oiuL1Yn)
+
+**video: 176**
+
+Hands-on exercise #2
+
+Start with [this code](https://play.golang.org/p/9a1IAWy5E6). Create a custom error message using &quot;fmt.Errorf&quot;.
+
+**solution:**
+
+- **●●** [**https://play.golang.org/p/HugU4HJEEO**](https://play.golang.org/p/HugU4HJEEO)
+- **●●** [**https://play.golang.org/p/NII-lmGasj**](https://play.golang.org/p/NII-lmGasj)
+- **●●** [**https://play.golang.org/p/Vo5kIoR-sG**](https://play.golang.org/p/Vo5kIoR-sG)
+
+**video: 177**
+
+Hands-on exercise #3
+
+Create a struct &quot;customErr&quot; which implements the builtin.error interface. Create a func &quot;foo&quot; that has a value of type error as a parameter. Create a value of type &quot;customErr&quot; and pass it into &quot;foo&quot;. If you need a hint, [here is one](https://play.golang.org/p/L5QWV8-p11).
+
+**solution:**
+
+- **●●** [**https://play.golang.org/p/ixeowY2fd2**](https://play.golang.org/p/ixeowY2fd2)
+- **●●**** assertion**
+  - **○○** [**https://play.golang.org/p/pbl2kCYsM0**](https://play.golang.org/p/pbl2kCYsM0)
+- **●●**** conversion**
+  - **○○** [**https://play.golang.org/p/1ldiBdkdzA**](https://play.golang.org/p/1ldiBdkdzA)
+
+**video: 178**
+
+Hands-on exercise #4
+
+Starting with [this code](https://play.golang.org/p/wlEM1tgfQD), use the sqrt.Error struct as a value of type error. If you would like, use these numbers for your
+
+- lat &quot;50.2289 N&quot;
+- long &quot;99.4656 W&quot;
+
+**solution:**
+
+- **●●** [**https://play.golang.org/p/nsRxbDfkCh**](https://play.golang.org/p/nsRxbDfkCh)
+
+**video: 179**
