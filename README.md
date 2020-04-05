@@ -1,3 +1,5 @@
+`Following is taken from Todd's doc. This is a list of exercises you'd complete if you complete all the sections of the Todd's course. Solutions linked below are Todd's. For my solutions, look at the ninja level and the exercise number, and navigate through the folders in the repo.`
+
 # **Exercises - Ninja Level 1 (variables, values, &amp; type)**
 
 Contribute your code
